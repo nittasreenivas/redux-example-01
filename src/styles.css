@@ -1,0 +1,30 @@
+.App {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.phones {
+  border: 1px solid red;
+  width: 390px;
+  padding: 12px;
+  margin: 12px;
+  text-align: center;
+}
+
+.phone-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.a {
+  text-align: center;
+}
+
+.a button {
+  margin: 0 5px;
+}
+
+.phones button {
+  margin: 0 6px;
+}
